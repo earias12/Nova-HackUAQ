@@ -11,6 +11,6 @@ Para replicar este proyecto, sigue cada uno de los pasos:
 
 - Evelyn Arias
 - Manuel Ortiz
-- Miembro 3
+- Krishna Herrera
 - Miembro 4
 - Miembro 5
