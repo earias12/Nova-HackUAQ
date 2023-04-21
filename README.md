@@ -13,4 +13,4 @@ Para replicar este proyecto, sigue cada uno de los pasos:
 - Manuel Ortiz
 - Krishna Herrera
 - Salvador Rojas
-- Miembro 5
+- Brian Poulsen
