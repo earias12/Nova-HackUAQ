@@ -21,3 +21,7 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 export const getMembers = () => getDocs(collection(db, "equipo"));
 export const getDocuments = () => getDocs(collection(db, "contratos"));
+export const getUsers = () => getDocs(collection(db, "usuarios"));
+export const addUser = (userN, userE, userP, userT ) => addDoc(collection(db, "usuarios"), {usuarioCorreo: userE, usuarioPassword: userP, usuarioNombre: userN, usuarioTitulo: userT});
+export const getLawyer = () => getDocs(collection(db, "abogados"));
+export const addLawyer = (userN, userE, userP, userT ) => addDoc(collection(db, "abogados"), {usuarioCorreo: userE, usuarioPassword: userP, usuarioNombre: userN, usuarioTitulo: userT});
