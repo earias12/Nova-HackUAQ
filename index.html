@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+
+<body>
+    <p>¡Soy el ChatBot!</p>
+    <button class="open-button" onclick="openForm()">Chat</button>
+    <div class="chat-popup" id="myForm">
+        <form action="/action_page.php" class="form-container">
+            <h3 style="text-align: center; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">EasyLawyer Bot
+            </h3>
+            <label for="msg"><b
+                    style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Mensajes</b></label>
+            <iframe
+                src='https://webchat.botframework.com/embed/ChatBot-HackTroyano-bot?s=lJf40ZU7cI4.-gXKpHS8bMd66aVGnypEoGJENBzcHgAcYD7KCXdjSnQ'
+                style='min-width: 20px; width: 100%; min-height: 500px;'>
+            </iframe>
+            <button type="button" class="btn cancel" onclick="closeForm()"><strong>Cerrar</strong></button>
+        </form>
+    </div>
+
+    <script src="./chatbot.js"></script>
+</body>
+
+</html>
