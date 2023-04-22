@@ -3,7 +3,7 @@ import { getMembers } from "./firebase.js";
 const editTeamInfo = document.getElementById("team-general-info");
 
 
-const querySnapshot = await getMembers();;
+const querySnapshot = await getMembers();
 querySnapshot.forEach((doc) => {
     let dataMember = doc.data();
 

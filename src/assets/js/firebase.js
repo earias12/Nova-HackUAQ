@@ -20,3 +20,4 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 export const getMembers = () => getDocs(collection(db, "equipo"));
+export const getDocuments = () => getDocs(collection(db, "contratos"));
