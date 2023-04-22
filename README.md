@@ -1,5 +1,12 @@
 # Nova-HackUAQ
 
+---
+
+Proyecto desplegado en: Microsoft Azure
+
+Enlace del proyecto: [EasyLawyers](https://delightful-plant-0e77d3c0f.3.azurestaticapps.net)
+
+
 ## Instrucciones
 
 Para replicar este proyecto, sigue cada uno de los pasos:
